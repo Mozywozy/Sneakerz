@@ -5,23 +5,30 @@ import Nb from '../assets/nb.svg'
 import Ortus from '../assets/ortus.svg'
 import Vans from '../assets/vans.svg'
 
-
 function Brands() {
   return (
-    <div className="h-full w-full bg-white justify-center items-center text-center font-raleway py-5">
-        <div className="font-extrabold text-4xl">
-            <h1>OUR BRAND</h1>
+    <div className="h-full w-full bg-white items-center justify-center font-raleway py-5">
+      <div className="font-extrabold text-4xl text-center">
+        <h1>OUR BRAND</h1>
+      </div>
+      <div className="w-full overflow-hidden relative">
+        <div className="slide gap-10 flex items-center">
+          <img src={Nike} alt="Nike" />
+          <img src={Adidas} alt="Adidas" />
+          <img src={Puma} alt="Puma" />
+          <img src={Nb} alt="NB" />
+          <img src={Ortus} alt="Ortus" />
+          <img src={Vans} alt="Vans" />
+          <img src={Nike} alt="Nike" />
+          <img src={Adidas} alt="Adidas" />
+          <img src={Puma} alt="Puma" />
+          <img src={Nb} alt="NB" />
+          <img src={Ortus} alt="Ortus" />
+          <img src={Vans} alt="Vans" />
         </div>
-        <div className="flex w-full text-center items-center justify-center gap-2 my-2">
-            <img src={Nike} alt="" />
-            <img src={Adidas} alt="" />
-            <img src={Puma} alt="" />
-            <img src={Nb} alt="" />
-            <img src={Ortus} alt="" />
-            <img src={Vans} alt="" />
-        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Brands
+export default Brands;

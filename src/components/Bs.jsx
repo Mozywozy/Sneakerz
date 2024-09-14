@@ -7,7 +7,7 @@ import Bs6 from '../assets/bs6.png'
 
 function Bs() {
   return (
-    <div className="w-full h-full bg-white font-raleway justify-around">
+    <div className="w-full h-full bg-white font-raleway justify-center items-center">
         <h1 className="text-center justify-center items-center w-full text-3xl font-bold my-20">BEST SELLER THIS MONTH</h1>
         <div className="grid grid-cols-3">
             <div className="w-fit border">

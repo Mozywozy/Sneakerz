@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <section className="flex">
+      <section className="flex max-lg:mx-52">
         <Hero />
       </section>
 
-      <section className="bg-gradient-to-r from-[#08041C] to-[#F40C2C] pt-1 pb-1 mt-20">
+      <section className="bg-gradient-to-r from-[#08041C] to-[#F40C2C] pt-1 pb-1">
         <Brands />
       </section>
 

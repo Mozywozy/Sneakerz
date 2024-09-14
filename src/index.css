@@ -3,3 +3,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slide {
+  animation: slide 10s linear infinite;
+  white-space: nowrap;
+}
+
+.slide img {
+  display: inline-block;
+  width: 250px; /* Adjust size as needed */
+  margin: 0 20px; /* Adjust spacing as needed */
+}
+
+
+.collection-img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.collection-img:hover {
+  transform: scale(1.05);
+}
