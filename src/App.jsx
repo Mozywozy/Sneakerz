@@ -6,7 +6,6 @@ import Hero from "./components/Hero";
 import Last from "./components/Last";
 import Navbar from "./components/Navbar";
 import Us from "./components/Us";
-import HeroImg from "./assets/hero1.jpg";
 
 function App() {
   return (
@@ -14,11 +13,6 @@ function App() {
       <Navbar />
       <section className="flex">
         <Hero />
-        <img
-          src={HeroImg}
-          alt="shoes"
-          className="w-[650px] absolute top-0 rounded-es-full right-0 -z-10"
-        />
       </section>
 
       <section className="bg-gradient-to-r from-[#08041C] to-[#F40C2C] pt-1 pb-1 mt-20">
