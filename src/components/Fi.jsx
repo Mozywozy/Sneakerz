@@ -1,7 +1,9 @@
+import ImgFi from "../assets/fi.png";
+
 function Fi() {
   return (
     <div className="w-full h-full bg-white  font-raleway flex">
-      <img src="../src/assets/fi.png" alt="fi" className="w-[795px]" />
+      <img src={ImgFi} alt="fi" className="w-[795px]" />
       <div className="text-center justify-center items-center my-10 w-full">
         <h1 className="font-extrabold text-4xl my-10">FIND INSPIRATION</h1>
         <div className="">

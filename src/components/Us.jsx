@@ -1,3 +1,5 @@
+import UsImg from "../assets/us.png";
+
 function Us() {
   return (
     <div className="w-full h-full bg-white  font-raleway flex">
@@ -16,7 +18,7 @@ function Us() {
           </button>
         </div>
       </div>
-      <img src="../src/assets/us.png" alt="fi" className="w-[750px]" />
+      <img src={UsImg} alt="fi" className="w-[750px]" />
     </div>
   );
 }
