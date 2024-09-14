@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Last from "./components/Last";
 import Navbar from "./components/Navbar";
 import Us from "./components/Us";
+import HeroImg from "./assets/hero1.jpg";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <section className="flex">
         <Hero />
         <img
-          src="../src/assets/hero.jpg"
+          src={HeroImg}
           alt="shoes"
           className="w-[650px] absolute top-0 rounded-es-full right-0 -z-10"
         />
